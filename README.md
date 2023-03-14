@@ -1,5 +1,5 @@
 # BurgerCode-Website
-User-Page
+## User-Page
 
 Step 1 : Register an account
 
@@ -8,7 +8,7 @@ Step 2 : Login
 Step 3 : Logout
 
 
-Admin-Page
+## Admin-Page
 
 Step 1 : Login using ID : 1191202335  Password :12345		
 
