@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><title>Manage Staff Page</title></head>
+<link rel="stylesheet" href="Project3.css">
+<body>
+<div class="container">
+<div class="content">
+
+		<a href="StaffAdd.html"><span>Add Staff</span></a>
+		<hr>
+		<a href="StaffUpdate.html"><span>Update Staff</span></a>
+		<hr>
+		<a href="StaffDelete.html"><span>Delete Staff</span></a>
+		<hr>
+		<a href="StaffView.html"><span>View Staff</span></a>
+		<hr>
+		<a href="StaffSelection.html"><span>Back</span></a>
+		<hr>
+	
+  </div>
+  <div class="btn">
+  <a class="Home" href="main.html"><input type="submit" name="HOME" value="HOME" /></a>
+  <a class="Logout" href="login.php"><input type="submit" name="LOGOUT" value="LOGOUT"/></a>
+</div>
+	<div class="formtitle">
+	<h2>STAFF UPDATE</h2>
+	</div>
+	<div class="mngform">
+	<form action="update.php" method="POST">
+	<p>Staff ID:<input type="text" name="id" placeholder="Enter Staff ID"></p>
+	<p>Staff Name:<input type="text" name="staffname" placeholder="Enter Staff Name"></p>
+	<p>Phone Number:<input type="text" name="phone" placeholder="Enter Staff Phone"></p>
+	<p>Staff Gender:</p>
+	<input type="radio" name="gender" value="Male">Male
+	<input type="radio" name="gender" value="Female">Female
+	<p>Position:<input type="text" name="position" placeholder="Enter Staff Position"></p>
+	<p>Address:<input type="text" name="address" placeholder="Enter Staff Address"></p>
+	
+	<p><input type="submit" name="update" value="UPDATE"></p>
+
+	</form>
+	
+	</div>
+	
+</div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="AboutUs.css">
+
+</head>
+
+    <body>
+
+    <div id="Container">
+
+	<div id="Members">
+
+		<p class="MembersTitle">Meet Our Members</p>
+		<hr class="line1">
+
+		<div id="Member1">
+
+			<img class="MemberPic1">
+			<p class="MemberName1"> Ayat Abdulaziz Gaber Al-Khulaqi</p>
+			<p class="MemberID1">ID : 1191202335</p>
+
+		</div>
+
+		<div id="Member2">
+
+			<img class="MemberPic2">
+			<p class="MemberName2"> Raisa Raad Khan</p>
+			<p class="MemberID2">ID : 1191202087</p>
+
+		</div>
+
+		<div id="Member3">
+
+			<img class="MemberPic3">
+			<p class="MemberName3"> Tan Pey Yi</p>
+			<p class="MemberID3">ID : 1191202254</p>
+
+		</div>
+
+		<div id="Member4">
+
+			<img class="MemberPic4">
+			<p class="MemberName4"> Ove, Ataul Haque</p>
+			<p class="MemberID4">ID : 1191202480</p>
+
+		</div>
+
+		<div id="Member5">
+
+			<img class="MemberPic5">
+			<p class="MemberName5"> Thurgashini Naido A\P Suppiah</p>
+			<p class="MemberID5">ID : 1181203319</p>
+
+		</div>
+
+	</div>
+
+
+            <ul class="List1">
+
+            <li><a class="home" href="Home.html">HOME</a></li>
+            <li><a class="meun" href="Menu.html">MENU</a></li>
+            <li><a class="aboutUs" href="AboutUs.html">ABOUT US</a></li>
+            <li><a class="contact_home" href="contact.html">CONTACT</a></li>
+            <li class="Log"><a><input type="submit" name="Login" value="Login / Registration" id="Loginbtn" onclick="Login()"/></a></li>
+
+        </ul>
+
+
+    </div>
+
+
+
+
+<div id="LoginContainer">
+
+<form class="LoginForm">
+
+    <a class="CloseForm" onclick="Login()"></a>
+
+
+<button id="Loginbtn" formaction="login.php" name="logbtn">LOGIN</button>
+
+<button id="regidterbtn" formaction="Reg.php" >REGISTER</button>
+
+<div class="Forgot">
+ <a href="#">Forgot Password?</a>
+ </div>
+ </form>
+</div>
+
+        <script>
+
+        window.onload=function(){
+
+       document.getElementById("LoginContainer").style.display="none";
+       }
+
+        function Login()
+    {
+
+         var x = document.getElementById("LoginContainer");
+
+        if (x.style.display === "none") {
+            x.style.display = "block";
+    }
+        else {
+    x.style.display = "none";
+  }
+
+    }
+
+        </script>
+
+    </body>
+
+
+
+</html>

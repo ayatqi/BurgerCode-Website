@@ -1,0 +1,631 @@
+*{
+    background-color: #010000;
+    margin: 0;
+    padding: 0;
+
+}
+
+#Container{
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 93px;
+
+}
+
+#Members{
+	position: absolute;
+	width: auto;
+	height: 917px;
+	left: 179px;
+	top: 350px;
+}
+
+
+.MembersTitle{
+
+	position: absolute;
+	width: 344px;
+	height: 45px;
+	left: 487px;
+	top: -301px;
+	font-family: ?????;
+    font-style: normal;
+    font-weight: normal;
+	font-size: 30px;
+	line-height: 45px;
+	color: #C48C43;
+}
+
+.line1{
+
+	position: absolute;
+	width: 974px;
+	height: 0px;
+	left: 79px;
+	border: none;
+	top: -228px;
+    border-bottom: 2.5px solid #F1F1F1;
+}
+
+
+#Member1{
+
+	position: absolute;
+	width: 278px;
+	height: 309px;
+	left: 79px;
+	top: -133px;
+
+	background: #D4C9A2;
+	opacity: 95%;
+	border-radius: 10px;
+
+
+}
+
+.MemberPic1{
+
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	left: 69px;
+	top: 40px;
+	border-radius : 50%;
+	background-image: url("Images/Ayat.jpg");
+	background-repeat: no-repeat;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.MemberName1{
+
+	position: absolute;
+	width: 360px;
+	height: 109px;
+	left: 20px;
+	top: 179px;
+	background-color: transparent;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+.MemberID1{
+
+	position: absolute;
+	width: 360px;
+	height: 109px;
+	left: 20px;
+	top: 210px;
+	background-color: transparent;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+#Member2{
+
+	position: absolute;
+	width: 278px;
+	height: 309px;
+	left: 429px;
+	top: -133px;
+
+	background: #D4C9A2;
+	opacity: 95%;
+	border-radius: 10px;
+
+
+}
+
+.MemberPic2{
+
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	left: 69px;
+	top: 40px;
+	border-radius : 50%;
+	background: #F1F1F1;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+	background-image: url("Images/Raisa.png");
+
+}
+
+.MemberName2{
+
+	position: absolute;
+	width: 360px;
+	height: 109px;
+	left: 20px;
+	top: 179px;
+	background-color: transparent;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+.MemberID2{
+
+	position: absolute;
+	width: 360px;
+	height: 109px;
+	left: 20px;
+	top: 210px;
+	background-color: transparent;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+#Member3{
+
+	position: absolute;
+	width: 278px;
+	height: 309px;
+	left: 779px;
+	top: -133px;
+
+	background: #D4C9A2;
+	opacity: 95%;
+	border-radius: 10px;
+
+
+}
+
+.MemberPic3{
+
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	left: 69px;
+	top: 40px;
+	border-radius : 50%;
+	background: #F1F1F1;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+    background-image: url("Images/Tanpeyi.png");
+
+}
+
+.MemberName3{
+
+	position: absolute;
+	width: 360px;
+	height: 109px;
+	left: 20px;
+	top: 179px;
+	background-color: transparent;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+.MemberID3{
+
+	position: absolute;
+	width: 360px;
+	height: 109px;
+	left: 20px;
+	top: 210px;
+	background-color: transparent;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+#Member4{
+
+	position: absolute;
+	width: 278px;
+	height: 309px;
+	left: 79px;
+	top: 233px;
+
+	background: #D4C9A2;
+	opacity: 95%;
+	border-radius: 10px;
+
+
+}
+
+.MemberPic4{
+
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	left: 69px;
+	top: 40px;
+	border-radius : 50%;
+	background: #F1F1F1;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+	background-image: url("Images/Ove.jpg");
+}
+
+.MemberName4{
+
+	position: absolute;
+	width: 360px;
+	height: 109px;
+	left: 20px;
+	top: 179px;
+	background-color: transparent;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+.MemberID4{
+
+	position: absolute;
+	width: 360px;
+	height: 109px;
+	left: 20px;
+	top: 210px;
+	background-color: transparent;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+#Member5{
+
+	position: absolute;
+	width: 278px;
+	height: 309px;
+	left: 429px;
+	top: 233px;
+
+	background: #D4C9A2;
+	opacity: 95%;
+	border-radius: 10px;
+
+
+}
+
+.MemberPic5{
+
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	left: 69px;;
+	top: 40px;
+	border-radius : 50%;
+	background: #F1F1F1;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+        background-image: url("Images/Thurga.png");
+}
+
+.MemberName5{
+
+	position: absolute;
+	width: 360px;
+	height: 109px;
+	left: 20px;
+	top: 179px;
+	background-color: transparent;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+.MemberID5{
+
+	position: absolute;
+	width: 360px;
+	height: 109px;
+	left: 20px;
+	top: 210px;
+	background-color: transparent;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+.List1 li a{
+
+
+    height: 20px;
+    width:  70.51px;
+    position: absolute;
+    top: -50px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+
+}
+
+.home{
+
+    left: 514px;
+}
+.home:hover{
+
+    cursor: pointer;
+    color: #C48C43;
+
+}
+
+.meun{
+
+
+    left: 637.05px;
+}
+
+.meun:hover{
+
+    cursor: pointer;
+    color: #C48C43;
+}
+
+.aboutUs{
+
+    left: 741px;
+
+}
+
+.aboutUs:hover{
+
+    cursor: pointer;
+    color: #C48C43;
+
+}
+
+.contact_home{
+
+    left: 880px;
+}
+
+.contact_home:hover{
+
+    cursor: pointer;
+    color: #C48C43;
+}
+
+.Log{
+
+    width: 120.93px;
+    height: 20px;
+
+
+}
+
+a input[name=Login]{
+
+    position: absolute;
+    width: 162px;
+    height: 50px;
+    font-size: 14px;
+    color:#C48C43;
+    font-weight: bold;
+    border-color: #C48C43;
+    left: 1224px;
+    top: -19px;
+
+
+}
+
+a input[name=Login]:hover{
+
+    color:#fff;
+    text-shadow: #FAFAF1;
+    background-color:#C48C43;
+    box-shadow: #C48C52;
+    cursor: pointer;
+}
+
+
+#LoginContainer{
+
+    position: absolute;
+    left: 516px;
+    top: 120px;
+	background-color:transparent;
+}
+
+.LoginForm{
+
+  width: 408px;
+  height: 485px;
+  border-radius: 25px;
+  position: relative;
+  background-color: #fff;
+  padding: 50px 35px 60px;
+  box-sizing: border-box;
+  border: 1px solid #C48C43;
+}
+
+.CloseForm{
+
+    background-color: transparent;
+    background-image: url(Images/Close1.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+}
+
+.CloseForm:hover{
+
+    background-image: url(Images/Close2.png);
+}
+
+
+.text{
+  font-size: 30px;
+  color: #C48C43;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+form{
+  margin-top: 40px;
+}
+
+form .input-field{
+  margin-top: 20px;
+  display: flex;
+  background:white;
+
+}
+
+form i{
+ position: absolute;
+ font-size: 25px;
+ color: grey;
+ margin: 15px 0 0 -45px;
+ background:white;
+}
+
+form i:hover{
+ color: #1E90FF;
+}
+
+.input-field input,button{
+  height: 50px;
+  width: 100%;
+  font-size: 19px;
+  color: black;
+  padding: 0 10px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid Gray;
+  background:white;
+
+}
+
+input:focus{
+  color: Gray;
+  border: 1px solid #1E90FF;
+}
+
+button{
+  margin-top: 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+button:hover{
+
+  color: #fff;
+  background-color: #1E90FF;
+  border: 1px solid #000;
+
+}
+
+#regidterbtn{
+
+    background-color: #1E90FF;
+    color: #fff;
+}
+
+#regidterbtn:hover{
+
+    background-color: #fff;
+    color: #000;
+
+}
+
+.Forgot{
+  margin-top: 20px;
+  color: #868686;
+  font-size:18px;
+  background:white;
+}
+
+.Forgot a{
+  background:white;
+  text-decoration: underline;
+}

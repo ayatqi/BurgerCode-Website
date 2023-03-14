@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+body{
+  background-color:white;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+	font-family:'Poppins',sans-serif;
+}
+
+
+
+#LoginContainer{
+    
+    position: absolute;
+    left: 500px;
+    top: 95px;
+	background:transparent;
+}
+.LoginForm{
+    
+  width: 408px;
+  height: 385px;
+  border-radius: 25px;
+  position: relative;
+  background:white;
+  padding: 50px 35px 60px;
+  box-sizing: border-box;
+  border: 1px solid #B0C4DE;
+}
+.log{
+	 background:Teal;
+}
+.text{
+  font-size: 30px;
+  color: Teal;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align:center;
+ 
+}
+form{
+  margin-top: 40px;
+}
+form .input-field{
+  margin-top: 20px;
+  display: flex;
+  background: white;
+  
+}
+.input-field input,button{
+ 
+  height: 50px;
+  width: 100%;
+  font-size: 19px;
+  color: Teal;
+  padding: 0 10px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid Gray;
+  background:white;
+ 
+}
+input:focus{
+  color: Gray;
+  border: 1px solid #1E90FF;
+}
+
+button{
+  margin-top: 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color:white;
+  
+}
+button:hover{
+  color:Teal;
+  border: 1px solid Teal;
+  background: transparent;
+  
+}
+
+
+.Forgot{
+  margin-top: 20px;
+  color: Teal;
+  font-size:18px;
+  background:white;
+}
+	
+.Forgot a{
+  background:white;
+  text-decoration: underline;
+}
+input[type=text]{
+	
+	width:250px;
+	height:25px;
+	border-color: #DDD;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:40px;
+	background-image:url("user.png");
+	background-repeat:no-repeat;
+	background-position:10px 10px;
+}
+input[type=password]{
+	width:250px;
+	height:25px;
+	border-color: #DDD;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:40px;
+	background-image:url("key.png");
+	background-repeat:no-repeat;
+	background-position:10px 10px;
+	
+}
+.Forgot a{
+	text-decoration:none;
+	font-family:Arial Narrow;
+	font-size:20px;
+	text-align:center;
+	color:Teal;
+}
+.Forgot a:hover{
+	color:blue;
+	font-style:italic;
+}
+

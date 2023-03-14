@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+body{
+  background-color:white;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family:'Poppins',sans-serif;
+}
+
+.container{
+	background-color:transparent;
+	width:450px;
+	height:550px;
+	padding:20px;
+	color:white;
+	margin:auto;
+
+}
+
+.formtitle{
+	font-family:Courier New;
+	color: black;
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+}
+
+input[type=text]{
+
+  height: 20px;
+  width: 100%;
+  font-size: 19px;
+  color: black;
+  padding: 0 10px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid black;
+  background:white;
+ 
+}
+
+p{
+	font-size: 20px;
+  letter-spacing: 2px;
+  color:#27126E;
+ 
+}
+
+.content{
+  background: Teal;
+  margin-top:0px;
+  padding-top: 30px;
+  position: fixed;
+  left:0;
+  width: 250px;
+  height: 380px;
+}
+
+
+.content a{
+  color:White;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.content a:hover{
+  background: #B0C4DE;
+}
+
+
+
+.formtitle{
+	text-align:center;
+	color:#27126E;
+	font-weight:bold;
+	font-family:Lucida Console;
+	font-size:30px;
+	letter-spacing:2px;
+}
+
+.mngform a{
+	text-align:center;
+	font-size:24px;
+	color:#6E125D;
+	letter-spacing:2px;
+	text-decoration:none;
+	padding:10px;
+}
+
+.mngform a:hover{
+
+	color:yellow;
+	text-decoration:underline;
+
+}
+
+.Home{
+    width: 120.93px;
+    height: 20px;
+
+
+}
+a input[name=HOME]{
+    position: absolute;
+    width: 142px;
+    height: 50px;
+    font-size: 14px;
+    color:white;
+    font-weight: bold;
+    left: 1600px;
+    top: 30px;
+	background-color:Teal;
+}
+
+a input[name=HOME]:hover{
+    color:Teal;
+    text-shadow: #FAFAF1;
+    background-color:white;
+    box-shadow: #C48C52;
+    cursor: pointer;
+}
+
+.Logout{
+    width: 120.93px;
+    height: 20px;
+
+
+}
+a input[name=LOGOUT]{
+    position: absolute;
+    width: 142px;
+    height: 50px;
+    font-size: 14px;
+    color:white;
+    font-weight: bold;
+    left: 1750px;
+    top: 30px;
+	background-color:Teal;
+}
+
+a input[name=LOGOUT]:hover{
+    color:Teal;
+    text-shadow: #FAFAF1;
+    background-color:white;
+    box-shadow: #C48C52;
+    cursor: pointer;
+}
+

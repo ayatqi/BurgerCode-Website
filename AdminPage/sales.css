@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+body{
+  background-color:white;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+	font-family:'Poppins',sans-serif;
+}
+
+
+.content{
+  background: Teal;
+  margin-top:10px;
+  padding-top: 30px;
+  position: fixed;
+  left:0;
+  width: 250px;
+  height: 100%;
+}
+
+
+.content a{
+  color:White;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.content a:hover{
+  background: #B0C4DE;
+}
+
+.content hr{
+  width: 85%;
+  margin: auto;
+}
+
+
+.Admin{
+font-size: 70px;
+font-weight: 100;
+margin-left:700px;
+color:Teal;
+
+}
+
+.Staff{
+  position: absolute;
+	width: 350px;
+	height: 309px;
+	left: 400px;
+	top: 300px;
+	background:Teal;
+	border-radius: 15px;
+}
+
+
+.Staff:hover{
+	background:#B0C4DE;
+	border-radius: 15px;
+}
+
+
+.Member{
+  position: absolute;
+	width: 350px;
+	height: 309px;
+	left: 900px;
+	top: 300px;
+	background:Teal;
+	border-radius: 15px;
+}
+
+.Member:hover{
+	background:#B0C4DE;
+	border-radius: 15px;
+}
+
+.Product{
+  position: absolute;
+	width: 350px;
+	height: 309px;
+	left: 1400px;
+	top: 300px;
+	background:Teal;
+	border-radius: 15px;
+}
+
+.Product:hover{
+	background:#B0C4DE;
+	border-radius: 15px;
+}
+
+.text{
+
+    font-size: 40px;
+    font-weight: 400;
+    margin: 50px 0px 50px 110px;
+    color:white;
+
+}
+
+i{
+    font-size: 50px;
+    color:white;
+    padding-left:140px;
+    padding-top:80px;
+}
+
+.box a{
+	text-decoration:none;
+    color:white;
+
+}
+
+
+
+.Home{
+    width: 120.93px;
+    height: 20px;
+}
+a input[name=HOME]{
+    position: absolute;
+    width: 142px;
+    height: 50px;
+    font-size: 14px;
+    color:white;
+    font-weight: bold;
+    left: 1450px;
+    top: 30px;
+	background-color:Teal;
+}
+
+a input[name=HOME]:hover{
+    color:Teal;
+    text-shadow: #FAFAF1;
+    background-color:white;
+    box-shadow: #C48C52;
+    cursor: pointer;
+}
+
+.Logout{
+    width: 120.93px;
+    height: 20px;
+}
+a input[name=LOGOUT]{
+    position: absolute;
+    width: 142px;
+    height: 50px;
+    font-size: 14px;
+    color:white;
+    font-weight: bold;
+    margin-left: 1600px;
+    top: 30px;
+	background-color:Teal;
+}
+
+a input[name=LOGOUT]:hover{
+    color:Teal;
+    text-shadow: #FAFAF1;
+    background-color:white;
+    box-shadow: #C48C52;
+    cursor: pointer;
+}
+
+
+
+
+.mid{
+  padding-top: 100px;
+  margin-left: 290px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 55%;
+  color: #d96459;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+th{
+  background-color: #588c7e;
+  color: white;
+}
+
+hr{
+  margin-left: 0;
+  width: 75%;
+}

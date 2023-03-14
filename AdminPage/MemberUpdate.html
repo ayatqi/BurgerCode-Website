@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head><title>Manage Member Page</title></head>
+<link rel="stylesheet" href="Project4.css">
+<body>
+<div class="container">
+<div class="content">
+
+        <a href="MemberAdd.html"><span>Add Member</span></a>
+		<hr>
+		<a href="MemberUpdate.html"><span>Update Member</span></a>
+		<hr>
+		<a href="MemberDelete.html"><span>Delete Member</span></a>
+		<hr>
+		<a href="MemberView.html"><span>View Member</span></a>
+		<hr>
+   
+
+    <a href="MemberSelection.html"><span>Back</span></a>
+    <hr>
+
+  </div>
+  <div class="btn">
+  <a class="Home" href="main.html"><input type="submit" name="HOME" value="HOME" /></a>
+  <a class="Logout" href="login.php"><input type="submit" name="LOGOUT" value="LOGOUT" /></a>
+  
+</div>
+	<div class="formtitle">
+	<h2>UPDATE MEMBER</h2>
+	</div>
+	<div class="mngform">
+	<form action="updateMember.php" method="POST">
+	<p>Member ID:<input type="text" name="id" placeholder="Enter Member ID"></p>
+	<p>Member Name:<input type="text" name="name" placeholder="Enter Member Name"></p>
+	<p>Phone Number:<input type="text" name="phone" placeholder="Enter Member Phone"></p>
+	<p>Member Gender:</p>
+	<input type="radio" name="gender" value="Male">Male
+	<input type="radio" name="gender" value="Female">Female
+	<p>Gift Points:<input type="text" name="point" placeholder="Enter Member Gift Point"></p>
+	<p>Address:<input type="text" name="address" placeholder="Enter Member Address"></p>
+
+	<p><input type="submit" name="update" value="UPDATE"></p>
+
+	</form>
+
+	</div>
+
+</div>
+</body>
+</html>

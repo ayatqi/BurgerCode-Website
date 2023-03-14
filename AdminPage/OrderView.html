@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head><title>Manage Order Page</title></head>
+<link rel="stylesheet" href="Project7.css">
+<body>
+<div class="container">
+<div class="content">
+  
+    <a href="OrderAdd.html"><span>Add Order</span></a>
+    <hr>
+    <a href="OrderEdit.html"><span>Update Order</span></a>
+    <hr>
+    <a href="OrderDelete.html"><span>Delete Order</span></a>
+    <hr>
+    <a href="OrderView.html"><span>View Order</span></a>
+    <hr>
+	<a href="CategoryAdd.html"><span>Add Category</span></a>
+	<hr>
+	<a href="CategoryUpdate.html"><span>Update Category</span></a>
+	<hr>
+	<a href="CategoryDelete.html"><span>Delete Category</span></a>
+	<hr>
+	<a href="CategoryView.html"><span>View Category</span></a>
+	<hr>
+	<a href="ProductAdd.html"><span>Add Product</span></a>
+	<hr>
+	<a href="ProductUpdate.html"><span>Update Product</span></a>
+	<hr>
+	<a href="ProductDelete.html"><span>Delete Product</span></a>
+	<hr>
+	<a href="ProductView.html"><span>View Product</span></a>
+	<hr>
+	<a href="sales.php"><span>Sales Report</span></a>
+	
+  </div>
+  <div class="btn">
+  <a class="Home" href="main.html"><input type="submit" name="HOME" value="HOME" /></a>
+</div>
+	<div class="formtitle">
+	<h2>VIEW ORDER</h2>
+	</div>
+	<div class="mngform">
+	<form action="view.php" method="POST">
+	<p>Username:<input type="text" name="username" placeholder="Enter Username"></p>
+	<p>Email:<input type="text" name="email" placeholder="Enter Email"></p>
+	<p>Date:<input type="date" placeholder="Choose a date"></p>
+	<p>Time:<input type="time" placeholder="Choose a time"></p>
+	<p>Category_type:<input type="text" name="category" placeholder="Enter Category Type"></p>
+	<p>Product_name:<input type="text" name="product" placeholder="Enter Product Name"></p>
+	<p>Price:<input type="text" name="price" placeholder="Enter Price"></p>
+	<p>GENERATE LIST:</p>
+	
+	<p><input type="submit" name="view" value="GENERATE"></p>
+	
+	<div id="report">
+	
+	</div>
+
+	</form>
+	
+	</div>
+	
+</div>
+</body>
+</html>

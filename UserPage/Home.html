@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="Home.css">
+
+</head>
+
+    <body>
+
+    <div id="Container">
+
+        <div class="sliderContainer">
+
+            <div class="showSlides">
+
+                <img src="Images/front-view-burger-fries-table-with-sauces-copy-space.jpg" class="slide1" width="1400px" height="607px">>
+
+                <div class ="Container2">
+                <p class="titleSO">Special Offer</p>
+
+                <p class="SOtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lorem lacus, dapibus sit amet finibus quis, blandit ac nunc. In eu posuere orci, in feugiat arcu.</p>
+
+
+                    <button class="OrderNow" onclick="location.href='Menu.html';" type="button">Order Now</button>
+
+                </div>
+
+            </div>
+
+            <div class="showSlides">
+
+                    <img src="Images/high-angle-sweet-potato-fries-with-sauce.jpg" class="slide1" width="1400px" height="607px">
+
+
+                     <div class ="Container2">
+                     <p class="titleSO">Sweet Potato Fries and Sauce</p>
+
+                    <p class="SOtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lorem lacus, dapibus sit amet finibus quis, blandit ac nunc. In eu posuere orci, in feugiat arcu.</p>
+
+
+                    <button class="OrderNow" onclick="location.href='Menu.html';" type="button">Order Now</button>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="showSlides">
+
+                    <img src="Images/front-view-burger-with-egg-copy-space.jpg" class="slide1" width="1400px" height="607px">>
+
+                    <div class ="Container2">
+                <p class="titleSO">Black Burger</p>
+
+                <p class="SOtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lorem lacus, dapibus sit amet finibus quis, blandit ac nunc. In eu posuere orci, in feugiat arcu.</p>
+
+
+                    <button class="OrderNow" onclick="location.href='Menu.html';" type="button">Order Now</button>
+
+
+
+                </div>
+
+            </div>
+
+        <a class="left" onclick="nextSlide(-1)"><</a>
+        <a class="right" onclick="nextSlide(1)">></a>
+
+        </div>
+
+
+            <ul class="List1">
+
+              <li><a class="home" href="Home.html">HOME</a></li>
+              <li><a class="meun" href="Menu.html">MENU</a></li>
+              <li><a class="aboutUs" href="AboutUs.html">ABOUT US</a></li>
+              <li><a class="contact_home" href="contact.html">CONTACT</a></li>
+            <li class="Log"><a><input type="submit" name="Login" value="Login / Registration" id="Loginbtn" onclick="Login()"/></a></li>
+
+        </ul>
+
+
+    </div>
+
+        <script>
+
+        var slide_index = 1;
+
+        displaySlides(slide_index);
+
+        function nextSlide(n) {
+
+            displaySlides(slide_index += n);
+        }
+
+        function currentSlide(n) {
+
+            displaySlides(slide_index = n);
+        }
+
+        function displaySlides(n) {
+
+            var i;
+            var slides = document.getElementsByClassName("showSlides");
+            if (n > slides.length) { slide_index = 1 }
+            if (n < 1) { slide_index = slides.length }
+
+            for (i = 0; i < slides.length; i++) {
+
+                slides[i].style.display = "none";
+
+            }
+            slides[slide_index - 1].style.display = "block";
+
+        }
+
+
+
+    </script>
+
+<div id="LoginContainer">
+
+<form class="LoginForm">
+
+    <a class="CloseForm" onclick="Login()"></a>
+
+
+<button id="Loginbtn" formaction="login.php" name="logbtn">LOGIN</button>
+
+<button id="regidterbtn" formaction="Reg.php" >REGISTER</button>
+
+<div class="Forgot">
+ <a href="#">Forgot Password?</a>
+ </div>
+ </form>
+</div>
+
+
+        <script>
+
+        window.onload=function(){
+
+       document.getElementById("LoginContainer").style.display="none";
+       }
+
+        function Login()
+    {
+
+         var x = document.getElementById("LoginContainer");
+
+        if (x.style.display === "none") {
+            x.style.display = "block";
+    }
+        else {
+    x.style.display = "none";
+  }
+
+    }
+
+        </script>
+
+    </body>
+
+
+
+</html>
